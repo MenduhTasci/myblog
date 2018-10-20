@@ -1,13 +1,13 @@
-package com.memo.myblog;
+package com.ieg.myblog;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SignUpActivity extends AppCompatActivity {
+public class NewPostImageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
+        setContentView(R.layout.activity_new_post_image);
     }
 }

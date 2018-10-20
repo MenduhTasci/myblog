@@ -1,9 +1,9 @@
-package com.memo.myblog.model;
+package com.ieg.myblog.models;
 
 public class PostText {
     private String user;
-    private  String title;
-    private  String body;
+    private String title;
+    private String body;
     private long time;
 
     public PostText() {

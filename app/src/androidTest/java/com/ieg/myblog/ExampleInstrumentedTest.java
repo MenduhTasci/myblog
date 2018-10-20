@@ -1,4 +1,4 @@
-package com.memo.myblog;
+package com.ieg.myblog;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.memo.myblog", appContext.getPackageName());
+        assertEquals("com.ieg.myblog", appContext.getPackageName());
     }
 }

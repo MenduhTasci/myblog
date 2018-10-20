@@ -1,8 +1,8 @@
-package com.memo.myblog.model;
+package com.ieg.myblog.models;
 
 public class User {
-    private  String name;
-    private  String email;
+    private String name;
+    private String email;
     private byte[] icon;
 
     public User() {

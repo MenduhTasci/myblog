@@ -1,7 +1,8 @@
-package com.memo.myblog;
+package com.ieg.myblog;
 
 import android.content.Intent;
 import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -16,13 +17,13 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                startActivity(new Intent(SplashActivity.this, LoginActivity.class));
                 SplashActivity.this.finish();
             }
-
-        }, 300);
+        }, Consts.SPLASH_MILLIS);
     }
 }

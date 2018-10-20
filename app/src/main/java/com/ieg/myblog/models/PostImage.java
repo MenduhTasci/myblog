@@ -1,8 +1,9 @@
-package com.memo.myblog.model;
+package com.ieg.myblog.models;
+
 public class PostImage {
     private String user;
-    private  String title;
-    private  String body;
+    private String title;
+    private String body;
     private String imagePath;
     private long time;
 
